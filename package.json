@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pnpm -C packages/fnduration build",
+    "test": "pnpm -C packages/tests test"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

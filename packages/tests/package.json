@@ -1,0 +1,14 @@
+{
+  "name": "@fnduration/tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.0"
+  },
+  "dependencies": {
+    "fnduration": "workspace:*"
+  }
+}
