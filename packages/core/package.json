@@ -19,6 +19,10 @@
     "type": "git",
     "url": "https://github.com/fnrhombus/fnduration"
   },
+  "bugs": {
+    "url": "https://github.com/fnrhombus/fnduration/issues"
+  },
+  "homepage": "https://github.com/fnrhombus/fnduration#readme",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -41,6 +45,12 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsup"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "tsup": "^8.4.0",
