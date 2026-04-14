@@ -72,13 +72,13 @@ Full options docs (style, largest, round, units) on the [wiki](https://github.co
 
 | | fnduration | ms | pretty-ms | parse-duration | human-interval |
 |---|---|---|---|---|---|
-| Parse → ms | yes | terse only | no | yes | yes |
-| Format ms → string | yes | terse only | yes | no | no |
-| Multiple units | yes | single only | yes | yes | yes |
+| Parse → ms | ✅ | ⚠️ terse only | ❌ | ✅ | ✅ |
+| Format ms → string | ✅ | ⚠️ terse only | ✅ | ❌ | ❌ |
+| Multiple units | ✅ | ❌ single only | ✅ | ✅ | ✅ |
 | Format styles | 3 | 1 | 1 | — | — |
-| TypeScript | native | yes | yes | no | no |
-| Zero deps | yes | yes | no | no | no |
-| Maintained | yes | yes | yes | stale | stale |
+| TypeScript | ✅ native | ✅ | ✅ | ❌ | ❌ |
+| Zero deps | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Maintained | ✅ | ✅ | ✅ | ⚠️ stale | ⚠️ stale |
 | **Size** (min+gz) | **1KB** | 0.4KB | 1.7KB | 1.2KB | 2KB |
 
 ## Install
